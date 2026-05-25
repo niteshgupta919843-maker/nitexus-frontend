@@ -8,7 +8,7 @@ export default defineConfig({
     // Proxy API calls to backend during development
     proxy: {
       '/api': {
-        target: 'https://nitexus-backend-new.onrender.com',
+        target: 'https://nitexus-backend-new-1.onrender.com',
         changeOrigin: true,
       },
     },
